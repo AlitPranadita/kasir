@@ -6,15 +6,15 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "ext-gd": "*",
+        "ext-zip": "*",
+        "ext-xml": "*",
         "ext-fileinfo": "*",
         "ext-mbstring": "*",
         "ext-openssl": "*",
         "ext-pdo": "*",
         "ext-tokenizer": "*",
-        "ext-xml": "*",
         "ext-curl": "*",
-        "ext-zip": "*",
-        "ext-gd": "*",
 
         "barryvdh/laravel-dompdf": "^2.0",
         "guzzlehttp/guzzle": "^7.2",
