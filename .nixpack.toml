@@ -7,6 +7,9 @@ nixPkgs = [
   "php82Extensions.fileinfo",
   "php82Extensions.pdo",
   "php82Extensions.curl",
+  "php82Extensions.zip",
+  "php82Extensions.xml",
+  "php82Extensions.gd", 
   "nodejs"
 ]
 

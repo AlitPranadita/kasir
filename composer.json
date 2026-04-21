@@ -13,6 +13,8 @@
         "ext-tokenizer": "*",
         "ext-xml": "*",
         "ext-curl": "*",
+        "ext-zip": "*",
+        "ext-gd": "*",
 
         "barryvdh/laravel-dompdf": "^2.0",
         "guzzlehttp/guzzle": "^7.2",
