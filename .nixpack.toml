@@ -16,6 +16,7 @@ nixPkgs = [
 [phases.build]
 cmds = [
   "composer install --no-dev --optimize-autoloader",
+  "php artisan package:discover",
   "npm install",
   "npm run build"
 ]
