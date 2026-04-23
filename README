@@ -1,0 +1,214 @@
+# 🧾 Cashier System — Laravel Web Application
+
+![Laravel](https://img.shields.io/badge/Laravel-10.x-red)
+![PHP](https://img.shields.io/badge/PHP-8.x-blue)
+![License](https://img.shields.io/badge/License-Educational-green)
+
+---
+
+## 📌 Overview
+
+**Cashier System** is a web-based application built using the Laravel framework to manage sales transactions, products, and reports efficiently.
+
+This project is developed as part of a **portfolio and academic learning** to demonstrate backend development skills using Laravel and database integration.
+
+The system simulates a real-world Point of Sale (POS) environment with a focus on simplicity, usability, and functionality.
+
+---
+
+## 🎯 Objectives
+
+* To implement a CRUD-based system using Laravel
+* To understand MVC architecture in real-world applications
+* To build a functional cashier (POS) system
+* To practice database design and transaction handling
+
+---
+
+## ✨ Key Features
+
+### 🔐 Authentication System
+
+* Secure login system
+* Session-based authentication
+
+### 📦 Product Management
+
+* Add new products
+* Edit product details
+* Delete products
+* View product list
+
+### 🛒 Transaction System
+
+* Add items to cart
+* Calculate total price automatically
+* Process sales transactions
+* Store transaction history
+
+### 📊 Reporting
+
+* Display sales data
+* Basic transaction reports
+
+### 🎨 User Interface
+
+* Clean and simple UI
+* Responsive layout (basic)
+
+---
+
+## 🏗️ System Architecture
+
+This project follows the **MVC (Model-View-Controller)** architecture:
+
+* **Model:** Handles database logic (Eloquent ORM)
+* **View:** Blade templates for UI
+* **Controller:** Handles business logic and request flow
+
+---
+
+## 🛠️ Technologies Used
+
+| Category        | Technology                   |
+| --------------- | ---------------------------- |
+| Backend         | Laravel (PHP Framework)      |
+| Frontend        | Blade, HTML, CSS, JavaScript |
+| Database        | MySQL                        |
+| Tools           | Composer, NPM, Git           |
+| Version Control | GitHub                       |
+
+---
+
+## ⚙️ Installation & Setup Guide
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/AlitPranadita/kasir.git
+cd kasir
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+composer install
+npm install
+```
+
+### 3️⃣ Environment Setup
+
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+### 4️⃣ Configure Database
+
+Edit `.env` file:
+
+```env
+DB_DATABASE=your_database
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### 5️⃣ Run Migration
+
+```bash
+php artisan migrate
+```
+
+### 6️⃣ Run Application
+
+```bash
+php artisan serve
+```
+
+Access the app:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## 🧪 Testing (Optional)
+
+If testing is implemented:
+
+```bash
+php artisan test
+```
+
+---
+
+## 📂 Project Structure (Simplified)
+
+```bash
+app/
+ ├── Http/
+ │   ├── Controllers/
+ ├── Models/
+
+resources/
+ ├── views/
+
+routes/
+ ├── web.php
+
+database/
+ ├── migrations/
+```
+
+---
+
+## ⚠️ Known Limitations
+
+* No online deployment available
+* Limited UI/UX design
+* No advanced reporting system
+* Not optimized for production use
+
+---
+
+## 🚀 Future Improvements
+
+* Add REST API support
+* Improve UI/UX design
+* Add role-based access (Admin/Cashier)
+* Implement advanced reports (daily/monthly)
+* Add export (PDF/Excel)
+* Deploy to cloud platform (Railway / Render)
+
+---
+
+## 🔗 Repository Link
+
+👉 https://github.com/AlitPranadita/kasir
+
+---
+
+## 👨‍💻 Author
+
+**I Komang Alit Pranadita**
+Informatics Engineering Student
+INSTIKI
+
+
+## 💡 Notes for Reviewer / Recruiter
+
+This project demonstrates:
+
+* Understanding of Laravel framework
+* CRUD operations and database integration
+* MVC architecture implementation
+* Basic full-stack web development skills
+
+Although not deployed online, the project can be easily run locally by following the setup instructions above.
+
+---
+
+⭐ If you find this project useful, feel free to give it a star!
